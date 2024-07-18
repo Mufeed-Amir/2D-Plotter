@@ -1,7 +1,7 @@
 # 2D - Plotter
 
 ![CNC Machine](https://github.com/Mufeed-Amir/2D-Plotter/blob/main/Images/final.webp)
-### This project is divided into hardware and software parts.
+### This project is divided into hardware and software.
 
 # Software
 
