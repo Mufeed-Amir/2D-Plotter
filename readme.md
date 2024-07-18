@@ -1,12 +1,11 @@
 # 2D - Plotter
 
-![Getting Started](./images/final.webp)
+![CNC Machine](https://github.com/Mufeed-Amir/2D-Plotter/blob/main/Images/final.webp)
 ### This project is divided into hardware and software parts.
 
 # Software
 
-![Getting Started](./images/software.webp)
-
+![software](https://github.com/Mufeed-Amir/2D-Plotter/blob/main/Images/software.webp)
 In software configuration, there are a lot of things from programming the Arduino to the software used and their configuration. The list of Software’s we used are
 
 * Arduino
@@ -27,12 +26,12 @@ There will be no change in the main code even after adding Bluetooth.
 ```
 
 ## Testing
-![Getting Started](./images/testing.webp)
+![software](https://github.com/Mufeed-Amir/2D-Plotter/blob/main/Images/testing.webp)
 
-* Go to chrome and type "online G-code sender" extension.
+* Go to Chrome and type "online G-code sender" extension.
 * Click on the first link and add the Extension to your browser.
 * Now open the g-code sender extension.
-* Now load the file which you have downloaded earlier.
+* Now load the file which you downloaded earlier.
 * Go to connect and set the configuration and then add select COM port.
 * After setting up the connection with Arduino click on the "send to machine" button.
 
@@ -60,14 +59,14 @@ and other components which are needed for assistance to make the structure such 
 
 
 ## Design & 3D-Model
-![Getting Started](./images/design.webp)
+![software](https://github.com/Mufeed-Amir/2D-Plotter/blob/main/Images/design.webp)
 
 I created this 3D model using Fusion360, It has two moving parts, in either x and y-direction. Arduino and Motor driver ICs and other components are inside the BOX fitted with a cooling fan to maintain temperature. This model is a hypothetical one, so our final prototype may look a little different to you.
 
 
 ## Circuit Diagram
 
-![Getting Started](./images/circuit_diagram.webp)
+![software](https://github.com/Mufeed-Amir/2D-Plotter/blob/main/Images/circuit_diagram.webp)
 
  There is an Arduino and somehow every other component connected to it. There are two servo motors each govern the movement of one axis such as the x-axis and y-axis. The stepper motor we are using is bi-polar so has only four terminals. Each motor driver takes 4 input pins from Arduino and gives 4 outputs pins that go to each stepper motor. The last component is the Servo motor with 180 degrees of freedom, and is basically for lifting the pen up and pen down.
 
@@ -76,7 +75,7 @@ I created this 3D model using Fusion360, It has two moving parts, in either x an
  ```
  ## Fabrication - Circuit
 
-![Getting Started](./images/fabrication.webp)
+![software](https://github.com/Mufeed-Amir/2D-Plotter/blob/main/Images/fabrication.webp)
 
 In the above, I have shared two diagrams one for the <b>motor driver</b> and one for the <b>voltage regulator</b>. Following this, I have soldered one voltage regulator and two motor drivers on one small <b>PCB plate</b>. And maintained the necessary connection of voltage regulator with motor driver internally. As you can see the wiring part is so complex in the diagram so, we came up with a solution to put all electronic components together on the PCB board and solder them, So after by doing this, it will be a lot easier for us to change any component during its failure.
 
@@ -85,19 +84,19 @@ In the above, I have shared two diagrams one for the <b>motor driver</b> and one
 Just because of this, 90% percent of the wiring part is done.it makes your circuit clean and free of short-circuiting problems. If you watch carefully at back there is a plus sign of soldering wire, that actually works as a heat sink and IC doesn't get heated up. If the above circuit is very depressing to you then just buy them online. And circuit connection remain same;
 
 ## Adding Arduino
-![Getting Started](./images/arduino.webp)
+![software](https://github.com/Mufeed-Amir/2D-Plotter/blob/main/Images/arduino.webp)
 
 ```
 IGNORE other components in this project, like dimmer, Ignition Coil, capacitor, etc. These don't serve any purpose here. That was just for experimental purpose for High Voltage Spark Cutting.
 ```
 
 ## Structure & Process of Assembly
-![Getting Started](./images/assembly.webp)
+![software](https://github.com/Mufeed-Amir/2D-Plotter/blob/main/Images/assembly.webp)
 
 First, we are going to take two DVD writers and open them and then we extracted the main component that is lens pick-up assembly. This lens pickup assembly is inbuilt with one brushless motor and one stepper motor, so we don’t need a brushless motor, so remove it, and then it looks like in the 3rd slide-in diagram. Then we will put each on X and Y plane with structural support, Now we have four-wire from each stepper motor, all four wires are connected with plotter hardware inside the interior and then the wiring is done successfully.
 
 ## Result
-![Getting Started](./images/result.webp)
+![software](https://github.com/Mufeed-Amir/2D-Plotter/blob/main/Images/result.webp)
 
 
-Feel free to ask any question : mufeed.amir.17290@gmail.com / mmamir22@iitk.ac.in
+Feel free to ask any question: mufeed.amir.17290@gmail.com / mmamir22@iitk.ac.in
